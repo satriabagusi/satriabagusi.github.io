@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Satria Bagus - Portfolio</title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class="img-fluid" width="50px" src="./assets/img/logo.jpeg" alt="">
+            <img class="img-fluid" width="50px" src="./assets/img/logo.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,32 +38,38 @@
       </nav>
 
       <!-- Section About -->
-      <section class="mt-5 container-fluid">
+      <section class="mt-5 mb-5 pt-lg-5 container-fluid" ">
         <div class="row justify-content-center">
-          <div class="col-4">
+          <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <div class="ps-4">
-              <p class="text-wrap">
+              <p class="">
                 <p class="fw-bold">
                   Hi, I'm Satria Bagus (Satria)
                 </p>
-                  I'm an Software Developer based on Indramayu, West Java. Experienced on Backend (Laravel & NodeJS)
+                  I'm an Software Developer based on Indramayu, West Java. Experienced on Backend (Laravel & NodeJS). I love code, and I'm happy when <span style="color: rgb(88,99,248);" class=" fw-bold">solve a problem</span> with a code
               </p>
             </div>
           </div>
-          <div class="col-4">
-            <img class="img-fluid d-flex m-auto" width="100px" src="https://mattfarley.ca/img/mf-avatar.svg" alt="">
+          <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img class="img-fluid d-flex m-auto" width="200px" src="assets/img/profile.png" alt="">
           </div>
-          <div class="col-4">
-            <img class="img-fluid d-flex m-auto" width="200px" src="/assets/img/code-vector.png" alt="">
+          <div class="d-none d-lg-block col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img class="img-fluid d-flex m-auto mt-5" width="200px" src="/assets/img/code-vector.png" alt="">
           </div>
         </div>
 
       </section>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <hr>
+        </div>
+      </div>
 
-      <!-- Portfolio Section -->
-      <section class="container-fluid">
+      <!-- Portfolio Summarize Section -->
+      <section class="container-fluid mt-5 mb-5">
+        <h4 class="display-6 text-center">Experience</h4>
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-11 col-lg-8">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -70,7 +78,7 @@
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
+                  <div class="accordion-body text-wrap">
                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
                 </div>
@@ -103,6 +111,117 @@
           </div>
         </div>
       </section>
+
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <hr>
+        </div>
+      </div>
+
+      <!-- Portfolio Showcase -->
+      <section class="container-fluid mt-5">
+        <h4 class="display-6 mt-5 text-center">Portfolio</h4>
+
+        <div class="row justify-content-center mt-5 mb-5">
+          <div class="col-lg-4 col-sm-6 col-12 order-2 order-sm-1 order-md-1 order-lg-1 order-md-1 order-xl-1 order-xxl-1">
+            <p class="fw-bold">Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sunt debitis? Adipisci recusandae beatae magnam dignissimos accusamus ea quam enim.</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 order-1 order-sm-1 order-md-2 order-lg-2 order-md-2 order-xl-2 order-xxl-2">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none">
+          <hr>
+        </div>
+
+        <div class="row justify-content-center mt-5 mb-5">
+          <div class="col-lg-4 col-sm-6 col-12 order-sm-1 order-md-1 order-lg-1 order-md-1 order-xl-1 order-xxl-1">
+            <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 order-sm-1 order-md-2 order-lg-2 order-md-2 order-xl-2 order-xxl-2">
+            <p class="fw-bold">Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sunt debitis? Adipisci recusandae beatae magnam dignissimos accusamus ea quam enim.</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="https://github.com/satriabagusi" class="btn btn-outline-primary rounded-pill">See More</a>
+        </div>
+
+      </section>
+
+      <footer class="bg-light mt-5">
+        <div class="row container-fluid p-4">
+          <div class="col-5">
+            <h5 class="text-uppercase fw-bold">Satria Bagus</h5>
+            <p class="text-secondary">I'm Satria and this is my Website Portfolio</p>
+          </div>
+          <div class="col-4">
+            <h5 class="text-uppercase fw-bold">Explore</h5>
+            <ul style="list-style-type: none;">
+              <li><a class="text-decoration-none text-black" href="#">Home</a></li>
+              <li><a class="text-decoration-none text-black" href="#">About</a></li>
+              <li><a class="text-decoration-none text-black" href="#">Recent Work</a></li>
+              <li><a class="text-decoration-none text-black" href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h6>Reach me on :</h6>
+            <ul style="list-style-type: none;">
+              <li><i class="bi bi-instagram"></i> <a class="text-decoration-none" href="https://www.instagram.com/satriabagus_">Instagram</a> </li>
+              <li><i class="bi bi-linkedin"></i> <a class="text-decoration-none" href="https://www.linkedin.com/in/satriabagus/">LinkedIn</a></li>
+              <li><i class="bi bi-github"></i> <a class="text-decoration-none" href="https://github.com/satriabagusi">Github</a> </li>
+            </ul>
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </footer>
+
+
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
